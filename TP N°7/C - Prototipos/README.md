@@ -96,7 +96,7 @@
   <dd>
 <dl>
 
-# Comunicación LoRa con ESP32
+# Comunicación por Radiofrecuencia LoRa con ESP32
 
 Este proyecto implementa un sistema de transmisión y recepción de datos ambientales mediante comunicación LoRa entre dos nodos basados en ESP32. Un nodo emisor mide temperatura y humedad usando un sensor DHT11, y otro nodo receptor recibe estos datos y activa un relé si se supera un umbral de temperatura.
 
