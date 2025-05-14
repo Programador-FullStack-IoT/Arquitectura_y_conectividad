@@ -142,3 +142,8 @@ Cada práctica se ha desarrollado en forma individual y grupal segun el requisit
 ## Requerimiento TP Nro 7
 
 ![image](https://github.com/user-attachments/assets/de79a6cb-3282-49f8-80de-37b22840cd4a)
+
+***Video Presentacion de la Conexion en Radio Frecuencia mediante LORaWan***
+
+### [Enlace a YouTube](https://youtu.be/TWQZ226hlG4)
+### [Enlace a Google Drive](https://drive.google.com/file/d/1A8ZroB6nOGMZf1eaDXnZlKpWM6i5xhm6/view?usp=sharing)
