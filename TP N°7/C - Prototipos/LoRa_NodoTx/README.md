@@ -48,3 +48,28 @@ Este proyecto implementa una comunicación inalámbrica entre dos nodos ESP32 ut
 lib_deps =
   sandeepmistry/LoRa@^0.8.0
   adafruit/DHT sensor library@^1.4.3
+
+🧪 Resultado Esperado
+•	En el Monitor Serial del receptor se verá:
+yaml
+CopiarEditar
+Mensaje recibido: Temp:29.5,Hum:45.2
+•	El relay o LED se activa cuando la temperatura es mayor a 30 °C.
+📁 Estructura del Proyecto
+css
+CopiarEditar
+LoRa_Proyecto/
+│
+├── src/
+│   ├── main_tx.cpp      ← Código del nodo transmisor
+│   └── main_rx.cpp      ← Código del nodo receptor
+│
+├── lib/                 ← Librerías gestionadas por PlatformIO
+├── docs/                ← Diagramas, presentación y datasheets
+├── platformio.ini       ← Configuración del entorno
+└── README.md            ← Este archivo
+📎 Documentación Técnica
+•	Datasheet SX1278
+•	Datasheet DHT11
+•	ESP32 DevKit v1
+
