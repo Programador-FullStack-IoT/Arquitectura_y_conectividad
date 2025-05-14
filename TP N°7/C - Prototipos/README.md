@@ -169,6 +169,34 @@ Instálalas desde el Library Manager de Arduino o `platformio.ini` si usas Platf
 3. Si la temperatura es superior a **30 °C**, activa el relé (LED ON).
 4. Si es igual o menor, lo desactiva (LED OFF).
 
+## Resultados Esperados
+En el Monitor Serial del receptor se verá: 
+Mensaje recibido: Temp:29.5,Hum:45.2 
+El relay o LED se activa cuando la temperatura es mayor a 30 °C. 
+
+📁 Estructura del Proyecto 
+LoRa_Proyecto/ 
+
+│ 
+
+├── src/ 
+
+│   ├── main_tx.cpp      ← Código del nodo transmisor 
+
+│   └── main_rx.cpp      ← Código del nodo receptor 
+
+│ 
+
+├── lib/                 ← Librerías gestionadas por PlatformIO 
+
+├── docs/                ← Diagramas, presentación y datasheets 
+
+├── platformio.ini       ← Configuración del entorno 
+
+└── README.md            ← Este archivo 
+
+
 ## Ejemplo de Salida Serial
 
 **Nodo TX:**
+
