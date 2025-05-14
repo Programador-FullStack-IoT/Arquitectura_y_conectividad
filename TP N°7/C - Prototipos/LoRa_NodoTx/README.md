@@ -35,7 +35,7 @@ Este proyecto implementa una comunicación inalámbrica entre dos nodos ESP32 ut
 | LoRa RST   | GPIO 14   |
 | LoRa DIO0  | GPIO 26   |
 
-## 🔌 Conexiones Nodo Receptor
+ ## 🔌 Conexiones Nodo Receptor
 
 | Componente | Pin ESP32 |
 |------------|-----------|
@@ -49,15 +49,15 @@ lib_deps =
   sandeepmistry/LoRa@^0.8.0
   adafruit/DHT sensor library@^1.4.3
 
-🧪 Resultado Esperado
+
+## 🧪 Resultado Esperado ##
 •	En el Monitor Serial del receptor se verá:
-yaml
-CopiarEditar
-Mensaje recibido: Temp:29.5,Hum:45.2
+
+- Mensaje recibido: Temp:29.5,Hum:45.2
 •	El relay o LED se activa cuando la temperatura es mayor a 30 °C.
-📁 Estructura del Proyecto
-css
-CopiarEditar
+
+## 📁 Estructura del Proyecto
+
 LoRa_Proyecto/
 │
 ├── src/
